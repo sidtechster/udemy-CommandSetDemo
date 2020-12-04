@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://4698.sharepoint.com/sites/SPFxDemos/Lists/ProjectStatus/AllItems.aspx",
+      "customActions": {
+        "4924262e-0e9a-46f3-8217-2afc2dd04c4a": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "Multiple items are selected...."
+          }
+        }
+      }
+    },
+    "myCommandSetDemo": {
+      "pageUrl": "https://4698.sharepoint.com/sites/SPFxDemos/Lists/ProjectStatus/AllItems.aspx",
+      "customActions": {
+        "4924262e-0e9a-46f3-8217-2afc2dd04c4a": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "Multiple items are selected...."
+          }
+        }
+      }
+    }
+  }
+}
